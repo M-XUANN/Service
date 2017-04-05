@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "SimHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;;
+	font-weight: lighter;
+}
+.container{
+	width: 100%;
+	min-width: 1280px;
+	/*
+	height: 100%;
+    margin: auto;
+   */
+}
+
+   .logo{
+	 height:auto;
+	width: 240px;
+	
+	float: left;
+	margin: -15px 120px;
+	position: absolute;
+	line-height: 76px;
+	z-index: 23;
+	
+ }
+ .logo img{
+   width: 100%;
+   
+ }
+
+
+.nav{
+	background-image:url( "../image/nav.png");
+	height: 80.5px;
+	width:100%;
+}
+
+
+
+.list ul{
+	
+	list-style:none;
+	margin:0;
+	line-height: 80.5px; 
+}
+ .list ul li{
+
+width: 80px;
+	float: left;
+   
+    display: list-item;
+    text-align: center;
+
+
+
+}
+.list li a:link,.list li a:visited{ 
+	color:rgb(255,255,255); 
+	font-size: 13px;
+	display: block;
+  
+    text-decoration:none;
+    text-align: center;
+    float: right;
+    width: 90px;
+}
+
+ .list ul li a:hover{
+	
+	
+	    background-image: url( "../image/small.png");
+	     background-size: 90%;
+	      background-repeat: no-repeat; 
+	      background-position: center;
+}
+.list{/* position: absolute;left: 520px; text-decoration:none;min-width: 700px; */position: absolute;
+ /* left: 580px; */
+/*  right: 15%;
+  min-width: 700px;
+  left: 550px;
+  width:auto; */
+  height: 80px;
+width: 700px;
+ float: right;
+margin-right:13%;
+z-index: 30;
+position: relative;}/*用百分比呀百分比*/
+
+
+ul,li{list-style: none;}
+a:link,a:visited{text-decoration: none;}
+
+
+
+ul,li{list-style: none;}
+a:link,a:visited{text-decoration: none;}
+
+
+
+/*list2是侧边导航栏*/
+
+.list2{
+	width: 270px;  /*因为章节标题的宽度不一样所以取最长的那一个做固定宽度 自适应宽度我的二级菜单点出来会造成宽度变化影响用户体验*/
+    float: left; 
+    background-color: #191e23;
+	height: 1800px;/*这个高度是因为我的课程内容比较长，你的高度可以不用改，只要起到填充页面的效果就好*/} 
+
+.list2 ul li{background-color: #0e1214; border-bottom: 1px solid #000;}
+
+.list2 ul li a{
+	padding:0 10px;
+    display: block;  
+   /*a的行高都是60*/
+    line-height: 60px;
+}
+
+.list2 ul li a:hover{
+	background-color: #ffffff;
+	color: rgb(14,18,20);
+}
+
+/*.small a{color: rgb(114.136.154);}这里是小节名称的样式*/
+.last a{ color: rgb(255,255,255); }/*这里是章节名称的样式*/
+
+/*main是导航栏旁边的内容页 相当于你的content-right*/
+/*这里改成用百分比吧！！！！！！！！！*/
+.main{
+	  position: absolute;
+	  top: 166px;
+	  left:380px;  /*因为左侧的导航栏的宽度是固定的，所以这里要设置成固定宽度*/
+	  min-width: 70%;
+} 
+
+.main iframe{  /*这个是内置框架的属性*/
+	border: 0;
+    width: 95%;
+}
+
+
+/*这个大盒子是没有侧边导航栏的页面的内容页，也就是除了最上方那个导航nav的盒子的属性*/
+.hugebox{
+	margin: 85.4px 19.4%;/*百分比！！！！！！！！！！顶部的留空固定一下，左右的都用百分比*/
+}
+
+.hugebox h1{
+	font-size: 18px;
+	line-height: 50px;
+	color: #FF6A6A;
+
+}
+
+.hugebox p ,.hugebox li{
+	font-size: 16px;
+	line-height: 30px;
+	color: rgb(94,94,94);
+}
+
+.mainforvideo p
+{
+	font-size: 16px;
+	line-height: 30px;
+	color: rgb(94,94,94);
+}
+
+
+/*图片居中*/
+.hugebox img{
+	clear: both;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+
+
+br{line-height: 49px;}  /*这个就没什么了*/
