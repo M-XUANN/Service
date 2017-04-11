@@ -14,4 +14,4 @@
 7. 习题
 8. 相关参考链接
 
-[点击此处进入主页](https://htmlpreview.github.io/?https://raw.githubusercontent.com/M-XUANN/Service/master/index.html)
+[点击此处进入主页](https://m-xuann.github.io/Service/index.html)
